@@ -1,0 +1,66 @@
+<svg
+        width="50"
+        height="50"
+        viewBox="0 0 50 50"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <defs>
+        <!-- Gold gradient -->
+        <linearGradient id="goldGradient" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#FFF2C1"/>
+            <stop offset="30%" stop-color="#E6B65C"/>
+            <stop offset="60%" stop-color="#C9952E"/>
+            <stop offset="100%" stop-color="#FFF2C1"/>
+        </linearGradient>
+    </defs>
+
+    <!-- G -->
+    <path
+            d="M26 7
+       C16 7 9 14 9 25
+       C9 36 16 43 26 43
+       C33 43 39 39 41 34
+       H29
+       V30
+       H44
+       C44 40 35 47 26 47
+       C13 47 5 37 5 25
+       C5 13 13 3 26 3
+       C34 3 40 7 44 12
+       L41 14
+       C37 9 32 7 26 7
+       Z"
+            fill="url(#goldGradient)"
+    />
+
+    <!-- Decorative flourish -->
+    <path
+            d="M14 38
+       C18 36 22 36 26 38
+       C30 40 34 40 38 38"
+            fill="none"
+            stroke="url(#goldGradient)"
+            stroke-width="1.5"
+            stroke-linecap="round"
+    />
+
+    <!-- V left -->
+    <path
+            d="M22 15
+       L26 39
+       L28 39
+       L24 15
+       Z"
+            fill="url(#goldGradient)"
+    />
+
+    <!-- V right -->
+    <path
+            d="M30 15
+       L26 39
+       L28 39
+       L32 15
+       Z"
+            fill="url(#goldGradient)"
+    />
+</svg>
